@@ -1,0 +1,16 @@
+body {
+    background-color: #FEFAE0;
+}
+
+.box {
+    margin: auto;
+    width: 50%;
+    background-color: #DDA15E;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 620px) {
+    .main {
+        width: 100%;
+    }
+}
