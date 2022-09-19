@@ -23,5 +23,5 @@ app.get('/resume', function (req, res) {
     res.render('resume');
 });
 
-app.listen(4000);
-console.log("Listening at localhost:4000");
+app.listen(process.env.PORT || 5000);
+//console.log("Listening at localhost:4000");
