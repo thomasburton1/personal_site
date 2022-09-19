@@ -1,6 +1,6 @@
 html,
 body {
-    min-width: 100vh;
+    min-width: auto;
     width: 100%;
     background-color: #DDA15E;
 }
@@ -65,9 +65,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
-    width: 80px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
+    border: 2px solid #DDA15E;
+    border-radius: 20px;
 }
 
 .bounce {
