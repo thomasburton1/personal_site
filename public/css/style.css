@@ -2,7 +2,7 @@ html,
 body {
     min-width: auto;
     width: 100%;
-    background-color: #DDA15E;
+    background-color: #FFBF69;
 }
 
 .wrapper {
@@ -13,9 +13,10 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 20px;
     padding: 30px;
-    background-color: #FEFAE0;
+    background-color: #FBEEE0;
     transform-origin: center;
     transition: scale 800ms;
+
 }
 
 .wrapper:hover {
@@ -23,9 +24,7 @@ body {
 }
 
 button {
-    background-color: #FEFAE0;
-    color: black;
-    border: 2px solid #DDA15E;
+    border: 5px solid #739E82;
     border-radius: 20px;
     width: 100px;
     height: 38px;
@@ -68,7 +67,7 @@ img {
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    border: 2px solid #DDA15E;
+    border: 8px solid #739E82;
     border-radius: 20px;
 }
 
