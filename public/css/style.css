@@ -24,7 +24,7 @@ body {
 }
 
 button {
-    border: 5px solid #739E82;
+    border: 5px solid black;
     border-radius: 20px;
     width: 100px;
     height: 38px;
@@ -67,7 +67,7 @@ img {
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    border: 8px solid #739E82;
+    border: 8px solid black;
     border-radius: 20px;
 }
 
