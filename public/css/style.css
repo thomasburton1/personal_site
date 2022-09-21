@@ -24,7 +24,7 @@ body {
 }
 
 button {
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 20px;
     width: 100px;
     height: 38px;
@@ -52,22 +52,22 @@ button {
 .items {
     grid-row: 2;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
 }
 
 img {
-    height: 80px;
+    height: 70px;
 }
 
 .item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: 0 auto;
-    border: 8px solid black;
+    border: 5px solid black;
     border-radius: 20px;
 }
 
@@ -82,7 +82,10 @@ img {
 }
 
 
-
+.avatar {
+    width: 40px;
+    height: 40px;
+}
 
 
 
